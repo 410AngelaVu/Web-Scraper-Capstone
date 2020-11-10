@@ -17,19 +17,23 @@ Ruby installed
 ### Setup
 Open your terminal and go to the directory where you want to clone the repo.
 
-Clone the repository to your local machine. Type $ git clone git@github.com:410AngelaVu/Web-Scraper-Capstone.git
+Clone the repository to your local machine. Type $ git clone https://github.com/410AngelaVu/Web-Scraper-Capstone.git
 
 Go to the Web-Scraper-Capstone directory. Type $ cd Web-Scraper-Capstone
 
-Install the necessary gems to run the scraper. Type $ bundle install
+Install the necessary gems to run the scraper. 
 
 Now your environment is ready to run the scraper. Type $ ruby bin/main.rb
 
 
 
-### Run tests
+### How to run the RSpec test
+You need to have the RSpec installed in you computer if you don't have it follow the steps.
+Boot up your terminal and punch in gem install rspec to install RSpec. Once that’s done, you can verify your version of RSpec with rspec --version, which will output the current version of each of the packaged gems. Take a minute also to hit rspec --help and look through the various options available.
 
-rubocop
+cd into the project and open a terminal.
+In the terminal just write rspec to run the tests.
+
 
 ## Author
 
