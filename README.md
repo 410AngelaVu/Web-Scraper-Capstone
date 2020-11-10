@@ -21,7 +21,7 @@ Clone the repository to your local machine. Type $ git clone https://github.com/
 
 Go to the Web-Scraper-Capstone directory. Type $ cd Web-Scraper-Capstone
 
-Install the necessary gems to run the scraper. 
+Install the necessary gems to run the scraper. Type $ bundle install
 
 Now your environment is ready to run the scraper. Type $ ruby bin/main.rb
 
@@ -34,6 +34,14 @@ Boot up your terminal and punch in gem install rspec to install RSpec. Once that
 cd into the project and open a terminal.
 In the terminal just write rspec to run the tests.
 
+### Using the scraper
+When you run the scraper you will see welcome messageand it will ask you if you want to see a job list.
+
+If you want to see type 'list'
+
+You will get a list of remote jobs
+
+If you want to see company detail of specific job, enter the index
 
 ## Author
 

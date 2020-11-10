@@ -19,7 +19,6 @@ def job_list
 end
 job_list
 input = gets.chomp
-
 if input == 'list'
   app = true
   while app == true
