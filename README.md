@@ -16,15 +16,15 @@ Nokogiri
 Ruby installed
 
 ### Setup
-1. Open your terminal and go to the directory where you want to clone the repo.
+# Open your terminal and go to the directory where you want to clone the repo.
 
-2. Clone the repository to your local machine. Type $ git clone https://github.com/410AngelaVu/Web-Scraper-Capstone.git
+# Clone the repository to your local machine. Type $ git clone https://github.com/410AngelaVu/Web-Scraper-Capstone.git
 
-3. Go to the Web-Scraper-Capstone directory. Type $ cd Web-Scraper-Capstone
+# Go to the Web-Scraper-Capstone directory. Type $ cd Web-Scraper-Capstone
 
-4. Install the necessary gems to run the scraper. Type $ bundle install
+# Install the necessary gems to run the scraper. Type $ bundle install
 
-5. Now your environment is ready to run the scraper. Type $ ruby bin/main.rb
+# Now your environment is ready to run the scraper. Type $ ruby bin/main.rb
 
 
 
@@ -36,13 +36,13 @@ cd into the project and open a terminal.
 In the terminal just write rspec to run the tests.
 
 ### Using the scraper
-When you run the scraper you will see welcome messageand it will ask you if you want to see a job list.
+# When you run the scraper you will see welcome messageand it will ask you if you want to see a job list.
 
-If you want to see type 'list'
+# If you want to see type 'list'
 
-You will get a list of remote jobs
+# You will get a list of remote jobs
 
-If you want to see company detail of specific job, enter the index
+# If you want to see company detail of specific job, enter the index
 
 ## Author
 
