@@ -12,6 +12,9 @@ describe Job do
   describe '#calling_list' do
     it 'if true show complete job list' do
       calling_list = 'list'
+      expect(calling_list).not_to be false
+    end
+    it 'if true show complete job list' do
       calling_list = 'LIST'
       expect(calling_list).not_to be false
     end
