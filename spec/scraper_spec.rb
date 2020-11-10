@@ -9,9 +9,15 @@ describe Job do
     end
   end
 
-  describe '#job_list' do
-    it 'shows welcome message' do
-      expect(job_list).to eql(nil)
+  describe '#calling_list' do
+    it 'if true show complete job list' do
+      calling_list = 'list'
+      calling_list = 'LIST'
+      expect(calling_list).not_to be false
+    end
+    it 'quits the program if list is not properly typed' do
+      calling_list = 'LiSt'
+      expect(calling_list).not_to be true
     end
   end
 end

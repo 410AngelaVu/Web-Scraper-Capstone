@@ -17,10 +17,25 @@ class Job
       new_job = Job.new('https://weworkremotely.com/')
       full_job_list(new_job.job_list)
       puts 'If you want to see link of the company details press, type a index of a job'
-      answer = gets.chomp.to_i
+      answer = gets.chomp
+      break if answer == 'exit'
+
       new_job1 = Job.new('https://weworkremotely.com/')
+      puts "https://weworkremotely.com#{new_job1.job_list[answer.to_i][:grab_url]}"
+      puts 'If you want to make another search type y'
+      @answer2 = gets.chomp
+      break if @answer2 == 'exit'
+
+      full_job_list(new_job.job_list)
+      puts 'If you want to see link of the company details press, type a index of a job'
+      answer = gets.chomp.to_i
       puts "https://weworkremotely.com#{new_job1.job_list[answer][:grab_url]}"
-      break
+    end
+  end
+
+  def full_job_list(job_list)
+    job_list.each_with_index do |job, index|
+      puts "#{index}.  #{job[:title]}"
     end
   end
 

@@ -1,11 +1,5 @@
 require_relative '../lib/job'
 
-def full_job_list(job_list)
-  job_list.each_with_index do |job, index|
-    puts "#{index}.  #{job[:title]}"
-  end
-end
-
 def job_list
   puts ''
   puts '========================='
@@ -15,12 +9,13 @@ def job_list
   puts 'What job would you like to choose?'
   puts ''
   puts 'Type list to get a job list'
-  puts 'Type exit or any other key to exit the program'
+  puts 'Type exit to exit the program'
 end
 job_list
 input = gets.chomp
 job3 = Job.new('https://weworkremotely.com/')
-
 job3.calling_list if input == 'list'
-
+job3.calling_list if input == 'LIST'
+job4 = Job.new('https://weworkremotely.com/')
+job4.calling_list if @answer2 == 'y'
 puts 'Goodbye, expolre our job list again!'
