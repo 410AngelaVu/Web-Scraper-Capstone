@@ -11,6 +11,19 @@ class Job
     system 'cls'
   end
 
+  def calling_list
+    app = true
+    while app == true
+      new_job = Job.new('https://weworkremotely.com/')
+      full_job_list(new_job.job_list)
+      puts 'If you want to see link of the company details press, type a index of a job'
+      answer = gets.chomp.to_i
+      new_job1 = Job.new('https://weworkremotely.com/')
+      puts "https://weworkremotely.com#{new_job1.job_list[answer][:grab_url]}"
+      break
+    end
+  end
+
   private
 
   def job_listing
