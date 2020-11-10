@@ -15,15 +15,15 @@ Nokogiri
 Ruby installed
 
 ### Setup
-Open your terminal and go to the directory where you want to clone the repo.
+1. Open your terminal and go to the directory where you want to clone the repo.
 
-Clone the repository to your local machine. Type $ git clone https://github.com/410AngelaVu/Web-Scraper-Capstone.git
+2. Clone the repository to your local machine. Type $ git clone https://github.com/410AngelaVu/Web-Scraper-Capstone.git
 
-Go to the Web-Scraper-Capstone directory. Type $ cd Web-Scraper-Capstone
+3. Go to the Web-Scraper-Capstone directory. Type $ cd Web-Scraper-Capstone
 
-Install the necessary gems to run the scraper. Type $ bundle install
+4. Install the necessary gems to run the scraper. Type $ bundle install
 
-Now your environment is ready to run the scraper. Type $ ruby bin/main.rb
+5. Now your environment is ready to run the scraper. Type $ ruby bin/main.rb
 
 
 
