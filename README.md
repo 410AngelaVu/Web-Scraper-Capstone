@@ -8,6 +8,7 @@ Welcome to the Web-Scraper. This is Microverse Cpastone project in Ruby. This pr
 Gems:
 
 HTTParty
+
 Nokogiri
 
 ### Prerequisites
