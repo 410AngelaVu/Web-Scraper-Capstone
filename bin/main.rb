@@ -18,4 +18,4 @@ job3.calling_list if input == 'list'
 job3.calling_list if input == 'LIST'
 job4 = Job.new('https://weworkremotely.com/')
 job4.calling_list if @answer2 == 'y'
-puts 'Goodbye, expolre our job list again!'
+puts 'Goodbye, explore our job list again!'
