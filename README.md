@@ -1,6 +1,6 @@
 # Web-Scraper-Capstone
 Welcome to the Web-Scraper. This is Microverse Cpastone project in Ruby. This projet scrpaes site https://weworkremotely.com/ and shows the job list in the terminal. It asks you the choose the job and shows you the link of that job. I chose that page because it will be useful for me in searching jobs.
-![screenshot](./pictures/scraper.png)
+![screenshot](./Pictures/scraper.png)
 
 ## Built With
 
