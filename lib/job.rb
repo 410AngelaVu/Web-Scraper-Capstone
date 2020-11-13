@@ -2,12 +2,13 @@ require 'nokogiri'
 require 'httparty'
 # Here is class Job, where all action is taken
 class Job
-  attr_reader :job_list, :each_job, :more_url
+  attr_accessor :job_list, :each_job, :more_url
   def initialize(url)
     @unparsed_page = HTTParty.get(url)
     @parsed_page = Nokogiri::HTML(@unparsed_page.body)
     @each_job = @parsed_page.css('li.feature > a')
     job_listing
+    @url = url
     system 'cls'
   end
 
@@ -35,8 +36,6 @@ class Job
       puts "https://weworkremotely.com#{new_job2.job_list[answer3.to_i][:grab_url]}"
     end
   end
-
-  private
 
   def full_job_list(job_list)
     job_list.each_with_index do |job, index|
