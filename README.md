@@ -45,6 +45,8 @@ In the terminal just write rspec to run the tests.
 
 * If you want to see company detail of specific job, enter the index
 
+* After the search you can run again program by typing 'yes' or exit the program by typing 'exit'
+
 ## Author
 
 👤 Andjela Vukadinovic 
