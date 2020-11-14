@@ -9,7 +9,6 @@ def job_list
   puts 'What job would you like to choose?'
   puts ''
   puts 'Type list to get a job list'
-  puts 'Type exit to exit the program'
 end
 job_list
 input = gets.chomp
@@ -26,10 +25,10 @@ while input.include?('list') || input.include?('LIST')
 
   puts "https://weworkremotely.com#{job3.job_list[answer.to_i][:grab_url]}"
   puts 'Type yes if you want another search'
-  puts 'Type no if you want to exit the program'
+  puts 'Type exit if you want to exit the program'
 
   answer1 = gets.chomp
-  break if answer1 == 'no'
+  break if answer1 == 'exit'
 
 end
 puts 'Explore our job list again! Goodbye!'
